@@ -4,16 +4,19 @@
   <meta charset="utf-8">
   
   
-  <title>归档: 2024 | PC の Blogs</title>
+  <title>Hello Ubuntu | PC の Blogs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="随笔&amp;杂谈">
-<meta property="og:type" content="website">
-<meta property="og:title" content="PC の Blogs">
-<meta property="og:url" content="http://example.com/archives/2024/index.html">
+  <meta name="description" content="这是一份自用的 Ubuntu 安装教程，不包含安装盘制作过程 设备：Windows 11 PC 版本：LTS 22.04 安装前请确保磁盘分区格式为 GUID 分区表(GPT) Here we go~  关闭 BitLocker 和独显直连  压缩 Windows 分区  插上U盘，进入 BIOS： (1) 关闭 Secure Boot (2) 关闭 Intel RST (3) 设置U盘引导  安">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Hello Ubuntu">
+<meta property="og:url" content="http://example.com/2024/08/26/Hello-Ubuntu/index.html">
 <meta property="og:site_name" content="PC の Blogs">
-<meta property="og:description" content="随笔&amp;杂谈">
+<meta property="og:description" content="这是一份自用的 Ubuntu 安装教程，不包含安装盘制作过程 设备：Windows 11 PC 版本：LTS 22.04 安装前请确保磁盘分区格式为 GUID 分区表(GPT) Here we go~  关闭 BitLocker 和独显直连  压缩 Windows 分区  插上U盘，进入 BIOS： (1) 关闭 Secure Boot (2) 关闭 Intel RST (3) 设置U盘引导  安">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2024-08-26T07:59:19.000Z">
+<meta property="article:modified_time" content="2024-08-26T08:10:48.850Z">
 <meta property="article:author" content="Qlexander_PC">
+<meta property="article:tag" content="学习">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="PC の Blogs" type="application/atom+xml">
@@ -73,58 +76,80 @@
 </header>
 
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2024" class="archive-year">2024</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2024/08/26/Hello-Ubuntu/" class="archive-article-date">
-  <time class="dt-published" datetime="2024-08-26T07:59:19.000Z" itemprop="datePublished">8月 26</time>
+        <section id="main"><article id="post-Hello-Ubuntu" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2024/08/26/Hello-Ubuntu/" class="article-date">
+  <time class="dt-published" datetime="2024-08-26T07:59:19.000Z" itemprop="datePublished">2024-08-26</time>
 </a>
-      
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2024/08/26/Hello-Ubuntu/">Hello Ubuntu</a>
+    <h1 class="p-name article-title" itemprop="headline name">
+      Hello Ubuntu
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
+      </header>
     
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2024/02/10/2023%E7%9A%84%E6%80%BB%E7%BB%93-2024%E7%9A%84%E5%B1%95%E6%9C%9B/" class="archive-article-date">
-  <time class="dt-published" datetime="2024-02-09T16:00:00.000Z" itemprop="datePublished">2月 10</time>
-</a>
+    <div class="e-content article-entry" itemprop="articleBody">
       
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2024/02/10/2023%E7%9A%84%E6%80%BB%E7%BB%93-2024%E7%9A%84%E5%B1%95%E6%9C%9B/">2023的总结&amp;2024的展望</a>
-    </h1>
-  
+        <p>这是一份自用的 Ubuntu 安装教程，不包含安装盘制作过程</p>
+<p>设备：Windows 11 PC</p>
+<p>版本：LTS 22.04</p>
+<p>安装前请确保<code>磁盘分区格式</code>为 <code>GUID 分区表(GPT)</code></p>
+<p>Here we go~</p>
+<ol>
+<li><p>关闭 <code>BitLocker</code> 和<code>独显直连</code></p>
+</li>
+<li><p>压缩 Windows 分区</p>
+</li>
+<li><p>插上U盘，进入 BIOS：</p>
+<p>(1) 关闭 <code>Secure Boot</code></p>
+<p>(2) 关闭 <code>Intel RST</code></p>
+<p>(3) 设置U盘引导</p>
+</li>
+<li><p>安装 Ubuntu：</p>
+<p>(1) 在<code>更新和其他软件</code>中关闭<code>安装 Ubuntu 时下载更新</code></p>
+<p>(2) 打开<code>为图形或无线硬件......</code></p>
+<p>(3) 在<code>安装类型</code>中选择<code>其他选项</code></p>
+<p>(4) 选中之前压缩的空闲分区，点击<code>+</code>，选择<code>根挂载点</code></p>
+<p>(5) 选择 efi 分区的设备号，在下拉菜单中找到并选中</p>
+<p>(6) 点击现在安装</p>
+</li>
+</ol>
+<p>后续步骤较为简单，略</p>
+<p>安装完成后记得在 BIOS 中设置 Ubuntu 引导</p>
 
-    </header>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2024/08/26/Hello-Ubuntu/" data-id="cm0apyau90000p0uk2xt7hwwh" data-title="Hello Ubuntu" class="article-share-link"><span class="fa fa-share">分享</span></a>
+      
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%AD%A6%E4%B9%A0/" rel="tag">学习</a></li></ul>
+
+    </footer>
   </div>
+  
+    
+<nav id="article-nav">
+  
+  
+    <a href="/2024/02/10/2023%E7%9A%84%E6%80%BB%E7%BB%93-2024%E7%9A%84%E5%B1%95%E6%9C%9B/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">后一篇</strong>
+      <div class="article-nav-title">2023的总结&amp;2024的展望</div>
+    </a>
+  
+</nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
 
 
 </section>
